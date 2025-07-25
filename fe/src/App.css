@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'Nohem';
+  src: url(./fonts/Nohemi-Regular-BF6438cc4d0e493.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OutfitLight';
+  src: url(./fonts/OutfitLight1.ttf);
+}
+@font-face {
+  font-family: 'OutfitRegular';
+  src: url(./fonts/OutfitRegular.ttf);
+  
+}
+@font-face {
+  font-family: 'NohemBold';
+  src: url(./fonts/Nohemi-Bold-BF6438cc587b5b5.ttf);
+ 
+}
+@font-face {
+  font-family: 'Cursive';
+  src: url(./fonts/GreatVibes-Regular.ttf);
+  font-weight: 700;
+  font-style: normal;
+}

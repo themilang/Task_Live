@@ -1,0 +1,45 @@
+<svg
+  width="75"
+  height="75"
+  viewBox="0 0 75 75"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Parent group rotated -->
+  <g transform="rotate(16.67, 37.5, 37.5)" opacity="1">
+    <!-- Background rectangle -->
+    <rect
+      x="0"
+      y="0"
+      width="75"
+      height="75"
+      fill="#5CA4DA"
+    />
+
+    <!-- Layer 1: Inner Blue -->
+    <rect
+      x="4.17"
+      y="4.17"
+      width="60.47"
+      height="58.36"
+      fill="#6DAFE0"
+    />
+
+    <!-- Layer 2: Inner White Square -->
+    <rect
+      x="11.14"
+      y="11.14"
+      width="57.11"
+      height="57.11"
+      fill="#FFFFFF"
+    />
+
+    <!-- Layer 3: Small White Center -->
+    <rect
+      x="40.26"
+      y="40.26"
+      width="10.31"
+      height="10.31"
+      fill="#FFFFFF"
+    />
+  </g>
+</svg>
