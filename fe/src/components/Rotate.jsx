@@ -34,7 +34,6 @@ function Rotate() {
           key={index}
           initial={{ width: 280 }}
           animate={{
-            
             width: expandedIndex === index ? 592 : 280,
             backgroundColor: expandedIndex === index ? "#C33241" : "#F9EBEC",
           }}
@@ -44,6 +43,7 @@ function Rotate() {
             setExpandedIndex(expandedIndex === index ? null : index)
           }
         >
+          
           <motion.div
             className="absolute mt-[126px] ml-[66px] w-[459px] h-[93px]"
             animate={expandedIndex !== index ? { x: -550 } : { x: 0 }}
@@ -68,7 +68,9 @@ function Rotate() {
               </h1>
             </div>
             <div>
-              <p className="font-[Outfit] -ml-6 text-[18px]">{box.description}</p>
+              <p className="font-[Outfit] -ml-6 text-[18px]">
+                {box.description}
+              </p>
             </div>
           </motion.div>
 

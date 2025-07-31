@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 
 const Journey = () => {
   const totalBoxes = 300;
+
   const [randomNumbers, setRandomNumbers] = useState([]);
   const arrRef = useRef([]);
 
@@ -15,12 +16,12 @@ const Journey = () => {
         }
       }
       setRandomNumbers(newNumbers);
-      arrRef.current = newNumbers;
+   
     };
 
     const interval = setInterval(generateRandomNumbers, 2000);
     return () => clearInterval(interval);
-  }, [2000]);
+  }, []);
 
   console.log("Highlighted boxes:", randomNumbers);
 
